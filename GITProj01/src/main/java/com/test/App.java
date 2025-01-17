@@ -1,10 +1,14 @@
 package com.test;
 
+import com.nt.service.arithmatic;
+
 /**
  * Hello world!
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        arithmatic ar=new arithmatic();
+        int result=ar.sum(10,20);
+        System.out.println(result);
     }
 }
