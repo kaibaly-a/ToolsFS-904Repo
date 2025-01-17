@@ -8,7 +8,9 @@ import com.nt.service.arithmatic;
 public class App {
     public static void main(String[] args) {
         arithmatic ar=new arithmatic();
-        int result=ar.sum(10,20);
+        long result=ar.sum(10,20);
+        long subresult=ar.sub(10, 20);
         System.out.println(result);
+        System.out.println(subresult);
     }
 }
